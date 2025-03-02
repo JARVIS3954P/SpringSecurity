@@ -10,7 +10,7 @@ public class HelloController {
 
     @GetMapping("hello")
     public String greet(HttpServletRequest request) {
-        return "Hello World ";
+        return "Hello World";
     }
 
     @GetMapping("about")
